@@ -100,7 +100,7 @@ Copy `.env.example` to `.env.local` when wiring Supabase (Online-1).
 
 ## Deploy
 
-Production frontend: **Vercel** (GitHub Actions on `main` or Vercel Git integration). Backend: **Supabase** (migrations via GitHub integration on `main`). See [`docs/DEPLOY.md`](docs/DEPLOY.md).
+Production frontend: **Vercel** (Git push to `main` → https://civitas-delta.vercel.app). Backend: **Supabase** (migrations via GitHub integration on `main`). See [`docs/DEPLOY.md`](docs/DEPLOY.md).
 
 ## Versioning
 

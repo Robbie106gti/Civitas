@@ -28,3 +28,4 @@ public/buildings/
 *.njsproj
 *.sln
 *.sw?
+.vercel
