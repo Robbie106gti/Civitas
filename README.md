@@ -98,6 +98,10 @@ Per sub-cell **layer** (grass, dirt, clay, rock, sand) and **height** (0 = surfa
 
 Copy `.env.example` to `.env.local` when wiring Supabase (Online-1).
 
+## Deploy
+
+Production frontend: **Vercel** (GitHub Actions on `main` or Vercel Git integration). Backend: **Supabase** (migrations via GitHub integration on `main`). See [`docs/DEPLOY.md`](docs/DEPLOY.md).
+
 ## Versioning
 
 `package.json` `version` is the single source of truth (`APP_VERSION` / Workbox cache names).
