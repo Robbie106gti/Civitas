@@ -33,7 +33,7 @@
   </div>
 
   {#if $hasSavedGame}
-    <p class="text-stone-dark/55 text-xs">A saved city was found in this browser.</p>
+    <p class="text-stone-dark/55 text-xs">A saved city was found (cloud or this browser).</p>
   {:else}
     <p class="text-stone-dark/55 text-xs">No save yet — start a new province.</p>
   {/if}

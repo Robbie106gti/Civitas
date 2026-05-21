@@ -1,0 +1,9 @@
+# Civitas — linked project for GitHub integration (migrations deploy from main)
+project_id = "bmnjagwxrlklsalehdqr"
+
+[api]
+enabled = true
+
+[db]
+port = 54322
+major_version = 15
